@@ -93,6 +93,7 @@ with the internet.
 
 A brief history- The idea for a simple and effective encryption scheme to protect and manage the numerous passwords we all 
 struggle to manage came from my friend and computer security specialist, Khaja. https://www.linkedin.com/in/khaja 
+
 I implemented the solution in Python as a fun way of learning the language as well as applied cryptography. 
 The result is this easy to use and secure tool for managing passwords. 
 
