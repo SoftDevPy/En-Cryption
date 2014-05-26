@@ -49,13 +49,12 @@ accounts, you will have to re-enter those accounts on the full version.
 
 View Window- Enter the Account Name you wish to view. This starts a decryption process of the encrypted data stored on your 
 
-device. Your Master Password is the "key" that decrypts or decodes your encrypted data. The wrong master Password entered will 
+device. Your Master Password is the "key" that decrypts or decodes your encrypted data. The wrong master Password entered 
 
-result in an incorrect "key" and therefore, the data displayed will be incorrect. If you see something that looks incorrect, 
+will result in an incorrect "key" and therefore, the data displayed will be incorrect. If you see something that looks 
 
-re-enter your Master Password. It is important to note that in order to make this program completely secure, there is no 
-
-provision for a recovery of the Master Password. If such a provision were made in the program, the unintended users would be 
+incorrect, re-enter your Master Password. It is important to note that in order to make this program completely secure, there is 
+no provision for a recovery of the Master Password. If such a provision were made in the program, the unintended users would be 
 
 able to hijack your data making use of this loophole, or "backdoor entry". 
 
