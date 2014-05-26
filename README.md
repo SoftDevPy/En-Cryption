@@ -3,13 +3,11 @@ En-Cryption
 
 A Password Encryption Software
 
-The Master Password Prompt- will guide you in setting up a unique, unforgettable password with a high 
+The Master Password Prompt- will guide you in setting up a unique, unforgettable password with a high entropy value. 
 
-entropy value. 
+Entropy- is a measure of password strength. The main determinant of entropy is password length. So, although a password 
 
-Entropy- is a measure of password strength. The main determinant of entropy is password length. So, 
-
-although a password should ideally contain UPPERCASE,lowercase,  digits and special characters, you 
+should ideally contain UPPERCASE,lowercase,  digits and special characters, you 
 
 could also pick long phrases that are easy for you to remember, and these phrases should be at least 
 
