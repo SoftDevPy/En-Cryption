@@ -9,15 +9,15 @@ entropy value.
 
 Entropy- is a measure of password strength. The main determinant of entropy is password length. So, 
 
-although a password should ideally contain UPPERCASE,lowercase,  digits and special characters, you could also pick long 
+although a password should ideally contain UPPERCASE,lowercase,  digits and special characters, you 
 
-phrases that are easy for you to remember, and these phrases should be at least 7 to 8 words in length, and should be unique 
+could also pick long phrases that are easy for you to remember, and these phrases should be at least 
 
-to yourself, something not searchable on Google:). And if you know some foreign phrases, you could add them in as well for 
+7 to 8 words in length, and should be unique to yourself, something not searchable on Google:). And if you
 
-added security. This type of password construction is more resistant to attack than a password constructed with greater 
+know some foreign phrases, you could add them in as well for added security. This type of password construction 
 
-complexity, but shorter in length. 
+is more resistant to attack than a password constructed with greater complexity, but shorter in length. 
 
 Create Window- Use this window to create your accounts. There is no limit to the number of accounts 
 
@@ -29,15 +29,17 @@ Account Name: this could be your email provider, bank, utility provider, cable e
 
 Account ID: The ID you use to access the above account. For multiple accounts under the same email or 
 
-bank for instance, use Account name and Account ID combinations for this field to help differentiate. Or use any method you 
+bank for instance, use Account name and Account ID combinations for this field to help differentiate.
 
-please.
+Or use any method you please.
 
 Randomize-it: Enter a random number, or number and letter combination. You will not need to remember 
 
-this, so do not worry if you forget about it later. This is an extra layer of protection that acts as a 'seed' value to an 
+this, so do not worry if you forget about it later. This is an extra layer of protection that acts as a 
 
-in-built random number generator that gets passed along with your Master Password to a 512 bit hash algorithm generator. 
+'seed' value to an in-built random number generator that gets passed along with your Master Password to 
+
+a 512 bit hash algorithm generator. 
 
 All this is part of the encryption process.
 
