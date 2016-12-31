@@ -13,7 +13,7 @@ A brief history- The idea for a simple and effective encryption scheme to protec
 
 I implemented the solution in Python as a fun way of learning the language as well as applied cryptography. The result is this easy to use and secure tool for managing passwords. 
 
-More than a 1000 lines of code were required to make the final Windows app, but I have broken down the main encryption/decryption process in the encryption_snapshot_python.py file in a easy to understand manner in Python without the user-interface coding as well as a encryption_snapshot_python.js file in JavaScript. I have attached an Encryption Explained file as well where I walk through the process.
+More than a 1000 lines of code were required to make the final Windows app, but I have broken down the main encryption/decryption process in the encryption_snapshot_python.py file in a easy to understand manner in Python without the user-interface coding as well as a encryption_snapshot_javascript.js file in JavaScript. I have attached an Encryption Explained file as well where I walk through the process.
 
 http://en-cryption.squarespace.com/
 
