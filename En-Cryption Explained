@@ -1,4 +1,4 @@
-ENCRYPTION EXPLAINED
+ENCRYPTION EXPLAINED -- A SNAPSHOT
 
 The Sha-512  hash function is a function that takes input of a variable length sequence of bytes and converts it to a fixed length 
 sequence. It is a one way function. Most of the time a hash function will produce unique output for a given input.
@@ -7,7 +7,8 @@ But if you 'seed' the random number as follows random.seed('123'). it will outpu
 number with the 'salt' variable.
 
 The makeSalt(salt) function, seeds the random number generator,  creates a hashlib.sha512() object,
-and updates that object with a bytearray of that random number, and the result is returned.
+and updates that object with a bytearray of that random number, and the result is returned and stored in the gsalt 
+variable.
 
 The key_for_acc_pass(masterPassword) function, takes the master password plus the result of the above makeSalt(salt) stored in gsalt 
 variable and after creating a bytearray of both master password and gsalt, updates the hashlib.sha512() object first with the master 
@@ -16,7 +17,7 @@ master password plus the gsalt to arrive at an encryption/decryption "key". Know
 successfully re-create the correct "key".
 
 The encrypt_it(plain_text, encryption_decryption_key) function takes the plain text password and the above encryption/decryption "key",
-creates a bytearray of both and XOR's each element of the 2 bytearrays and stores the result in a new bytearray which is the XOR result. 
+creates a bytearray of both and XOR's each element of the two bytearrays and stores the result in a new bytearray which is the XOR result. 
 This result is then converted to a Base-64 encoding since this is a way of taking binary data and turning it into text so that
  it's more easily transmitted in things like e-mail and HTML form data. And it is this result that is stored in the database.
 
